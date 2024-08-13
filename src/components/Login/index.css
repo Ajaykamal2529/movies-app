@@ -1,0 +1,79 @@
+.login-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/duwjg8xwd/image/upload/v1720045614/netfilx_1_xnzpvp.png');
+    background-size: cover;
+    height: 100vh;
+    margin: auto;
+}
+
+.login-heading{
+    font-family: "Roboto";
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 350px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+}
+.input-label{
+    font-family: Comic Sans MS, Comic;
+    color: white;
+    font-size: 16px;
+}
+.input-field{
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 25px;
+    background-color: rgb(102, 101, 101);
+    color: white;
+    padding: 5px 15px;
+}
+.input-field::placeholder{
+    color: rgb(225, 224, 224);
+    opacity: 3;
+}
+.show-hide-container{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.show-password-checkbox{
+    margin-right: 6px;
+}
+.show-password-label{
+    font-family: Comic Sans MS, Comic;
+    color: white;
+    font-size: 13px;
+}
+.login-button{
+    background-color: red;
+    font-family: 'Roboto';
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.error-msg{
+    align-self: start;
+    color: white;
+    font-family: Comic Sans MS, Comic;
+    font-size: 15px;
+}

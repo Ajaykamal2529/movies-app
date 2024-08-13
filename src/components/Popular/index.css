@@ -1,0 +1,75 @@
+/* Popular.css */
+
+.popular-movies-view {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.popular-movies-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 20px;
+    justify-content: center;
+}
+
+.popular-movie-item {
+    border-radius: 8px;
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+}
+
+.poster-image {
+    width: 100%;
+    height: auto;
+}
+
+.movie-title {
+    font-size: 14px;
+    padding: 10px 5px;
+    color: #fff;
+}
+
+.loading-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.failure-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.failure-view-image {
+    width: 200px;
+    height: auto;
+}
+
+.failure-description {
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: center;
+    color: #ff0000;
+}
+
+.try-again-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.try-again-button:hover {
+    background-color: #e60000;
+}

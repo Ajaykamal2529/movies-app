@@ -1,0 +1,18 @@
+.similar-movie-item {
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.similar-movie-poster {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.similar-movie-title {
+    font-size: 14px;
+    margin: 0;
+}

@@ -1,0 +1,41 @@
+.account-container {
+    background-color: #f8f8f8;
+}
+
+.account-details {
+    height: 100vh;
+    margin: 20px 0;
+}
+
+.account-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-details,
+.plan-details {
+    margin: 10px 0;
+}
+
+.username,
+.password,
+.plan-heading,
+.plan,
+.ultra-hd {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.logout-button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.logout-button:hover {
+    background-color: #f40612;
+}
